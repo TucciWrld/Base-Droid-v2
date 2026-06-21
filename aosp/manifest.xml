@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote servers -->
+  <remote name="basedroid" fetch="https://github.com/basedroid-v2/" review="https://review.basedroid-v2.org/" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
+
+  <!-- Base Droid v2 Custom Manifest Overlay -->
+  <project path="device/basedroid/custom" name="device_basedroid_common" remote="basedroid" revision="main" />
+  <project path="vendor/basedroid/prebuilts" name="vendor_basedroid_prebuilts" remote="basedroid" revision="main" />
+  <project path="packages/apps/BaseDroidLauncher" name="packages_apps_Launcher" remote="basedroid" revision="main" />
+  <project path="packages/apps/BaseDroidSettings" name="packages_apps_Settings" remote="basedroid" revision="main" />
+  <project path="packages/apps/BaseDroidStore" name="packages_apps_Store" remote="basedroid" revision="main" />
+</manifest>

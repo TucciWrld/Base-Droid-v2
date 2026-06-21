@@ -1,0 +1,6 @@
+{
+  "name": "Base Droid v2",
+  "description": "An interactive cyber-styled dashboard and build integration system for Base Droid OS, a custom, secure developer-focused AOSP-based environment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
